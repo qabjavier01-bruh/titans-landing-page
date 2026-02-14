@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modern Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Bootstrap.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand logo" href="#">
+    <img src="Titans_logo_HD.jpg" alt="Logo">
+    TITANS
+  </a>
+</nav>
+
+<header class="header">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>"At last, the Gundam by us and for us has been rolled out. For we the Titans, who uphold the principles of Earth supremacy, this pure-blooded Gundam, made by the Earth Federation Forces and unpolluted by Spacenoid engineers, is the form of the mobile suit that should have been given to us from the start."</h1>
+    <p>— Beginning of Gundam Mk-II's unveiling speech at Gryps</p>
+    <button id="ctaBtn" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registerModal">
+      Learn more
+    </button>
+    </div>
+  </div>
+</header>
+
+<section class="container features text-center">
+  <p>A direct descendant of the RX-78-2 Gundam developed by the Titans, the Gundam Mk-II is the first mobile suit to utilize the new movable frame concept. In this new concept, rather than merely serving as a structural framework, the movable frame incorporates all the mobile suit's vital mechanisms, including the actuators and control systems required for movement, and excludes the mobile suit's weapons, armor, and propellant tanks. This approach dramatically improves the mobile suit's responsiveness, reliability, and energy efficiency, as well as making it far more agile than traditional designs. </p>
+<p>Another characteristic of the Gundam Mk-II is that some of its legs' movable parts are exposed and this design feature is based on the prevailing idea at that time that avoiding being hit by the enemy is the preferable choice. The origin for this idea is because no existing armor can fully protect against beam weaponry, thus it is better to increase the mobile suit's mobility by weight reduction rather than equip more armor which would lead to a higher weight and lower mobility. </p>
+<p>The mobile suit also has what had become the standard 360-degree panoramic screen and linear seat fitted in a circular cockpit that also functions as an escape pod. The multiple panels of the panoramic screen make up a single 360-degree display, covering the entire inner surface of the cockpit. The image displayed on this screen is a computer simulation constructed from the cameras distributed around the mobile suit's exterior. The viewpoint is that of the mobile suit's head, and the image is carefully edited to remove the mobile suit itself. The linear seat is suspended in the center of the cockpit, supported by a linear arm which electromagnetically counters G-forces and impact shocks in order to protect the pilot. Together, the panoramic screen and the linear seat gives the pilot a larger field of view and eliminates blind spots. </p>
+<p>The most notable flaw of the Gundam Mk-II is that it is armored using the obsolete titanium alloy ceramic composite. Another flaw is that the movable frame's leg sections have rigidity issues associated with the strength of the structural material used, and this problem persisted even after six design revisions. Despite this, for a brief time period, the Gundam Mk-II's movable frame makes it one of the most agile mobile suits available. Its only fixed weapons are two beam sabers, but its main armaments are a shield, a beam rifle if necessary.</p>
+  <div class="row">
+    <div class="col-md-4 feature-card">
+      <h3>XB-G-1048L Beam Sabers</h3>
+      <p>The only fixed armament of the suit are two beam sabers for close combat, which are powered by rechargeable energy capacitor and stored on the backpack. Both had their power rated at 0.45 MW, and are more powerful than most beam sabers.</p>
+    </div>
+    <div class="col-md-4 feature-card">
+      <h3>BOWA・XBR-M-86-C2 Beam Rifle</h3>
+      <p>As with most other mobile suits at the time, the Mk-II uses a beam rifle as its main ranged armament. The Mk-II's beam rifle is a custom model used by the Titans, Power rated at 2.6 MW, the beam rifle is powered by a replaceable e-pac and has switches at the side for changing its output, thus the amount of beam shots an e-pac provides also varies. The beam rifle can be stored on the side skirt armor when not in use, and two spare e-pacs can be stored on the back of the shield.</p>
+    </div>
+    <div class="col-md-4 feature-card">
+      <h3>RX・M-Sh-VT/S-00018 Sheild</h3>
+      <p>Like most other mobile suits, the Mk-II carries a physical shield for defense on its left arm. While the Titans.  The Mk-II's shield can switch between an expanded state and a collapsed state, and like other shields, its surface has an anti-beam coating to defend against beam attacks. This coating is gradually burned away each time a beam strikes until it is rendered useless. A missile launcher containing three missiles can be equipped to the back of the shield's lower half as seen in the movies. Two spare e-pacs for the beam rifle can be stored behind the shield, but doing so will block the shield's view port.</p>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-dark"> <div class="modal-header bg-primary text-white text-center d-block">
+            <h5 class="modal-title w-100">Register</h5>
+          </div>
+          <div class="modal-body p-4">
+            <form id="registrationForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="tel" class="form-control" placeholder="Phone Number">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your E-Mail Address">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <select class="form-control"><option>Gender</option><option>Male</option><option>Female</option></select>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Date Of Birth : DD/MM/YY">
+                </div>
+              </div>
+              <div class="form-row">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="Bootstrap.js"></script>
+
+</body>
+</html>
